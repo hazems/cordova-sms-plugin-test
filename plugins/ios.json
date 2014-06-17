@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "framework": {
+            "MessageUI.framework": {
+                "true": 1
+            }
+        },
+        "config.xml": {
+            "/*": {
+                "<feature name=\"Sms\"><param name=\"ios-package\" value=\"Sms\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.jsmobile.plugins.sms": {
+            "PACKAGE_NAME": "com.jsmobile.sms.app"
+        }
+    },
+    "dependent_plugins": {}
+}

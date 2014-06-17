@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "res/xml/config.xml": {
+            "/*": {
+                "<feature name=\"Sms\"><param name=\"android-package\" value=\"com.jsmobile.plugins.sms.Sms\" /></feature>": 1
+            }
+        },
+        "AndroidManifest.xml": {
+            "/manifest": {
+                "<uses-permission android:name=\"android.permission.SEND_SMS\" />": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.jsmobile.plugins.sms": {
+            "PACKAGE_NAME": "com.jsmobile.sms.app"
+        }
+    },
+    "dependent_plugins": {}
+}
