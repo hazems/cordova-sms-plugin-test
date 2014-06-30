@@ -1,0 +1,19 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "config.xml": {
+            "/*": {
+                "<feature name=\"Sms\"><param name=\"wp-package\" value=\"Sms\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.jsmobile.plugins.sms": {
+            "PACKAGE_NAME": "{043DCF82-9601-427F-991D-E5B201D83FEA}"
+        }
+    },
+    "dependent_plugins": {}
+}

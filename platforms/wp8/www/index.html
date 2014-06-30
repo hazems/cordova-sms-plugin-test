@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="jqueryMobile/jquery.mobile-1.4.0.min.css">             
+        <link rel="stylesheet" href="css/app.css">   
+        
+        <script src="jqueryMobile/jquery-1.10.2.min.js"></script>                                  
+        <script src="jqueryMobile/jquery.mobile-1.4.0.min.js"></script>
+        <script src="jqueryMobile/jquery.validate.min.js"></script>      
+                     
+        <title>SMS App</title>
+    </head>
+    <body>      
+        <div data-role="page" id="sms">
+            <div data-role="header">                               
+                <h1>Send SMS</h1>
+            </div>
+            <div data-role="content">
+                <h1>Send SMS now</h1>
+                <p>Enter mobile number and mobile message and click "send" button.</p>
+                                
+                <form id="smsForm">
+                    <div class="ui-field-contain">
+                        <label for="phoneNo">Phone Number</label> 
+                        <input type="text" id="phoneNo" name="phoneNo"></input>
+                    </div>
+                    <div class="ui-field-contain">        
+                        <label for="textMessage">Message</label> 
+                        <input type="text" id="textMessage" name="textMessage"></input>
+                    </div>
+                    
+                    <input type="button" id="sendSMS" data-icon="action" value="Send"></input>
+                    
+                    <ul id="messageBox"></ul>
+                                    
+                    <div id="result">
+                    </div>            
+                </form>
+            </div>  
+        </div>         
+                                
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/sms.js"></script>                                                                                                      
+    </body>
+</html>

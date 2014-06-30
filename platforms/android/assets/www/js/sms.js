@@ -1,10 +1,4 @@
-(function() {
-    /*jQuery.validator.setDefaults({
-        errorPlacement: function(error, element) {
-            error.appendTo(element.closest('.ui-field-contain'));
-        }
-    });*/
-	
+(function() {	
     $(document).on("pageinit", "#sms", function(e) {
         e.preventDefault();
         
