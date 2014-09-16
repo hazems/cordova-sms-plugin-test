@@ -2,24 +2,30 @@
     $(document).on("pageinit", "#sms", function(e) {
         e.preventDefault();
         
-        $("#sendSMS").on("tap", function(e) {
-            e.preventDefault();                    
+        function onDeviceReady() {
+            console.log("Apache Cordova is loaded ...");
+        
+            $("#sendSMS").on("tap", function(e) {
+                e.preventDefault();
 
-            if (! $("#smsForm").valid()) {
-                return;
-            }
+                if (! $("#smsForm").valid()) {
+                    return;
+                }
             
-            var messageInfo = {
-                phoneNumber: $("#phoneNo").val(),
-                textMessage: $("#textMessage").val()
-            };
+                var messageInfo = {
+                    phoneNumber: $("#phoneNo").val(),
+                    textMessage: $("#textMessage").val()
+                };
                 
-            sms.sendMessage(messageInfo, function() {
-                $("#result").html("Message is sent successfully ...");
-            }, function(error) {
-                $("#result").html("Error code: " + error.code + ", Error message: " + error.message);
+                sms.sendMessage(messageInfo, function() {
+                    $("#result").html("Message is sent successfully ...");
+                }, function(error) {
+                    $("#result").html("Error code: " + error.code + ", Error message: " + error.message);
+                });
             });
-        }); 
+        }
+                   
+        document.addEventListener("deviceready", onDeviceReady, false);
     });
 
     $(document).on("pageshow", "#sms", function(e) {
