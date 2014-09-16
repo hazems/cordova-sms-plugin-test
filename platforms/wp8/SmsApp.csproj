@@ -211,12 +211,6 @@
         <Content Include="www\index.html" />
     </ItemGroup>
     <ItemGroup>
-        <Content Include="www\jqueryMobile\.DS_Store" />
-    </ItemGroup>
-    <ItemGroup>
-        <Content Include="www\jqueryMobile\images\.DS_Store" />
-    </ItemGroup>
-    <ItemGroup>
         <Content Include="www\jqueryMobile\images\ajax-loader.gif" />
     </ItemGroup>
     <ItemGroup>
