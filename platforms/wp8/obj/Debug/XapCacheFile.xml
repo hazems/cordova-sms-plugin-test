@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="9/16/2014 4:09:07 AM">
-  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\obj\Debug\com.jsmobile.sms.app.dll" archivePath="com.jsmobile.sms.app.dll" lastWriteTime="9/16/2014 4:09:07 AM" />
+﻿<xapCache source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="9/18/2014 6:49:49 AM">
+  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\obj\Debug\com.jsmobile.sms.app.dll" archivePath="com.jsmobile.sms.app.dll" lastWriteTime="9/18/2014 6:49:46 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="9/16/2014 4:04:49 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="3/14/2014 10:54:01 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="3/14/2014 10:54:01 AM" />
@@ -218,12 +218,10 @@
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\jqueryMobile\jquery.mobile-1.4.0.min.js" archivePath="www\jqueryMobile\jquery.mobile-1.4.0.min.js" lastWriteTime="9/16/2014 4:04:47 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\jqueryMobile\jquery.validate.min.js" archivePath="www\jqueryMobile\jquery.validate.min.js" lastWriteTime="9/16/2014 4:04:47 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\js\sms.js" archivePath="www\js\sms.js" lastWriteTime="9/16/2014 4:06:47 AM" />
-  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\plugins\com.jsmobile.plugins.sms\www\sms.js" archivePath="www\plugins\com.jsmobile.plugins.sms\www\sms.js" lastWriteTime="9/16/2014 4:04:49 AM" />
+  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\plugins\com.jsmobile.plugins.sms\www\sms.js" archivePath="www\plugins\com.jsmobile.plugins.sms\www\sms.js" lastWriteTime="9/18/2014 6:47:30 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="9/16/2014 4:04:49 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/16/2014 4:08:48 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/14/2014 10:54:01 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="3/14/2014 10:54:01 AM" />
-  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/14/2014 10:54:01 AM" />
-  <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Background.png" archivePath="Background.png" lastWriteTime="3/14/2014 10:54:01 AM" />
   <file source="C:\Users\Naglaa\Documents\GitHub\cordova-sms-plugin-test\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/16/2014 4:08:48 AM" />
 </xapCache>
